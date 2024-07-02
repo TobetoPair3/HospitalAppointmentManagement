@@ -27,6 +27,12 @@ namespace Business.DependecyResolvers.Autofac
             builder.RegisterType<UserProfileManager>().As<IUserProfileService>();
             builder.RegisterType<EfUserProfileDal>().As<IUserProfileDal>();
 
+            builder.RegisterType<AppointmentManager>().As<IAppointmentService>();
+            builder.RegisterType<EfAppointmentDal>().As<IAppointmentDal>();
+
+            builder.RegisterType<DoctorScheduleManager>().As<IDoctorScheduleService>();
+            builder.RegisterType<EfDoctorScheduleDal>().As<IDoctorScheduleDal>();
+
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();

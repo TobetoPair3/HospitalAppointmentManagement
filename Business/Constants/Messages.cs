@@ -25,5 +25,13 @@ namespace Business.Constants
         public static string SuccessfulLogin = "Giriş başarılı";
         public static string UserAlreadyExists = "Kullanıcı mevcut";
         public static string AccessTokenCreated = "Giriş tokeni oluşturuldu.";
+
+
+        public static string AppointmentAdded = "Randevu oluşturuldu";
+
+        public static string ScheduleAdded = "Takvim eklendi.";
+        public static string ScheduleDeleted = "Takvim silindi.";
+        public static string ScheduleIsEmpty = "Takvim boş.";
+        public static string ScheduleUpdated = "Takvim güncellendi.";
     }
 }
